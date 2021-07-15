@@ -1,4 +1,4 @@
-alert("Welcome to 901 Puppies!")
+alert("Welcome to 901 Puppies!");
 
 var name = window.prompt("What is your name?");
 var amount = window.prompt("How many dogs do you have?");
