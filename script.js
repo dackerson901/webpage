@@ -5,10 +5,10 @@ var amount = window.prompt("How many dogs do you have?");
 document.write("Hello " + name + ", Welcome to 901 Puppies! Do you like having " + amount + " dogs?");
 
 var isDoglover = true;
-var isTall = true;
+var isYoung = true;
 
 if(isDoglover && isYoung) {
-    document.write("You are young dog lover");
+    document.write("You are a young dog lover");
 } else {
     document.write("You are either not young or not a doglover or both");
 }
