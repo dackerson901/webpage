@@ -14,6 +14,6 @@ if(isDoglover && isYoung) {
 }
 
 function welcome(){
-    document.write("<h1>Hello, thanks for visiting my page. Have a look at our selection of puppies.</h1>");
+    document.write("<head>Hello, thanks for visiting my page. Have a look at our selection of puppies.</head>");
 }
 welcome
