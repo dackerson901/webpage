@@ -12,3 +12,8 @@ if(isDoglover && isYoung) {
 } else {
     document.write("You are either not young or not a doglover or both");
 }
+
+function welcome(){
+    document.write("<h1>Hello, thanks for visiting my page. Have a look at our selection of puppies."</h1>);
+}
+welcome
