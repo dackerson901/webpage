@@ -17,3 +17,20 @@ function welcome(){
     document.write("<body>Hello, thanks for visiting my page. Have a look at our selection of puppies.</body>");
 }
 welcome
+
+function questionUser(){
+    var CorrectAnswer = false;
+    while(CorrectAnswer ==false){
+        var answer = prompt("Are dog's mans best friend?");
+        if(answer == "yes"){
+            alert("Correct!");
+            CorrectAnswer = true;
+        }
+        else{
+            alert("Wrong, Try Again!");
+        }
+    
+    }
+}    
+
+questionUser();
